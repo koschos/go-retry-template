@@ -1,1 +1,3 @@
-module "go-retry-template"
+module github.com/koschos/go-retry-template
+
+go 1.16
