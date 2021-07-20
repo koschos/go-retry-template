@@ -1,7 +1,7 @@
 package backoff
 
 import (
-	"go-retry-template/operations"
+	"github.com/koschos/go-retry-template/operations"
 	"time"
 )
 

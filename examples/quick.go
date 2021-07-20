@@ -3,11 +3,11 @@ package examples
 import (
 	"errors"
 	"fmt"
+	retry_template "github.com/koschos/go-retry-template"
+	"github.com/koschos/go-retry-template/backoff"
+	"github.com/koschos/go-retry-template/operations"
+	"github.com/koschos/go-retry-template/policy"
 	"math/rand"
-	"go-retry-template"
-	"go-retry-template/backoff"
-	"go-retry-template/operations"
-	"go-retry-template/policy"
 	"strconv"
 	"time"
 )

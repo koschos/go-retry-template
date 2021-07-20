@@ -1,6 +1,6 @@
 package retry_template
 
-import "go-retry-template/operations"
+import "github.com/koschos/go-retry-template/operations"
 
 type RetryTemplate struct {
 	RetryPolicy   operations.RetryPolicy
@@ -25,4 +25,3 @@ func (rt RetryTemplate) Execute(callback func(rc operations.RetryContext) (inter
 
 	return nil, context.LastError
 }
-

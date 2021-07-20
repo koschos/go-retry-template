@@ -1,6 +1,6 @@
 package policy
 
-import "go-retry-template/operations"
+import "github.com/koschos/go-retry-template/operations"
 
 type SimpleRetryPolicy struct {
 	MaxAttempts int
